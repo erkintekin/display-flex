@@ -1,0 +1,73 @@
+* {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.navbar-logo {
+  content: url("https://i.ibb.co/mDTM3GC/Blue-White-Simple-Modern-Shoes-Store-Logo-1.png");
+  width: 10%;
+}
+
+.navbar-logo2 {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.navbar-logo2 a {
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.navbar-logo2 a:hover {
+  background-color: rgb(150, 255, 3);
+  border-radius: 15px;
+  transition: all ease 1s;
+}
+.mainimg {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  margin: 75px;
+}
+.ceo-logo img {
+  object-fit: contain;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.first3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.photos img {
+  object-fit: contain;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.last5 {
+  display: flex;
+  justify-content: space-around;
+}
+.photos2 img {
+  object-fit: contain;
+  width: 150px;
+  border-radius: 10px;
+}
