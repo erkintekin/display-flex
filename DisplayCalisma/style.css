@@ -19,6 +19,10 @@
   display: flex;
   align-self: center;
   justify-content: space-around;
+  border: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: thin;
 }
 
 .navbar-logo2 a {
@@ -32,7 +36,7 @@
 
 .navbar-logo2 a:hover {
   background-color: rgb(150, 255, 3);
-  border-radius: 15px;
+  border-radius: 10px;
   transition: all ease 1s;
 }
 .mainimg {
@@ -60,6 +64,11 @@
   object-fit: contain;
   width: 150px;
   border-radius: 10px;
+  transition: all ease 0.5s;
+}
+
+.photos img:hover {
+  transform: scale(1, 1.1);
 }
 
 .last5 {
@@ -70,4 +79,9 @@
   object-fit: contain;
   width: 150px;
   border-radius: 10px;
+  transition: all ease 0.5s;
+}
+
+.photos2 img:hover {
+  transform: scale(1, 1.1);
 }
